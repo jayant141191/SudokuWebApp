@@ -1,0 +1,53 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.container-narrow {
+    /* Custom, narrow container */
+    margin: 0 auto;
+    max-width: 600px;
+	
+ }
+
+#sudoku-board {
+    border: 2px solid gray;
+}
+
+#sudoku-board td {
+    padding: 0px;
+    margin: 0px;
+}
+
+#sudoku-board input.square {
+    display: block;
+    margin-left:auto;
+    margin-bottom:0px;
+    width: 63px;
+    height: 45px;
+    font-size: 40px;
+    text-align: center;
+	border-radius: 0px;
+}
+
+#sudoku-board .border-right {
+    border-right: 2px solid gray;
+}
+
+#sudoku-board .border-bottom {
+    border-bottom: 2px solid gray;
+}
+
+.green-text {
+    color: ForestGreen !important;
+}
+
+#check-solution{
+	text-align:center;
+	
+}
+
+#check-board{
+	
+	background:red;
+}
