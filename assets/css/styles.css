@@ -42,8 +42,10 @@ body {
     color: ForestGreen !important;
 }
 
-#check-solution{
-	text-align:center;
+#check-board{
+	margin:0px;
+	left:50%;
+	position:relative;
 	
 }
 
