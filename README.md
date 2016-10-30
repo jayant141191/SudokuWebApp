@@ -4,9 +4,9 @@ Sudoku web application that allows the user to play a game of sudoku
 ##Project Structure
 1)  The assets folder contains two sub-folders named js and css(assets/js and assets/css). The hierarchy is explained below:
 
-•	assets/js/sudokuApplication.js: It contains functions which are responsible for the behaviour of the application.
+•	###assets/js/sudokuApplication.js: It contains functions which are responsible for the behaviour of the application.
 
-•	assets/css/styles.css: It contains code that describes the style of HTML document i.e. how the Sudoku applications html elements should be displayed.
+•	###assets/css/styles.css: It contains code that describes the style of HTML document i.e. how the Sudoku applications html elements should be displayed.
 
 2)	index.html: It contains the html code which is used to structure the web page. 
 
