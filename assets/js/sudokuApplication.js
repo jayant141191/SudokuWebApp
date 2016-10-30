@@ -193,37 +193,6 @@ var checkValidity = (function () {
 })();
 
 
-/*
-var solve_puzzle = function(puzzle){
-    
-    // Solve only if it's a valid puzzle
-    if(typeof boards[puzzle] !== "undefined"){
-        display_puzzle(boards[puzzle], true);
-        
-        var error = false;
-        try{
-            var solved_board = 
-                sudoku.solve(sudoku.board_grid_to_string(boards[puzzle]));
-        } catch(e) {
-            error = true;
-        }
-        
-        // Display the solved puzzle if solved successfully, display error if
-        // unable to solve.
-        if(solved_board && !error){
-            display_puzzle(sudoku.board_string_to_grid(solved_board), true);
-            $(MESSAGE_SEL).hide();
-        } else {
-            $(MESSAGE_SEL + " #text")
-                .html("<strong>Unable to solve!</strong> "
-                    + "Check puzzle and try again.");
-            $(MESSAGE_SEL).show();
-        }
-    }
-};
-*/
-
-
 var generatePuzzle = function(puzzle){
     
     if(boards[puzzle] === null){
