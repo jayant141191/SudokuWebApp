@@ -3,8 +3,13 @@ Sudoku web application that allows the user to play a game of sudoku
 
 ##Demo Link
  
-• Checkout the Sudoku app demo in action at http://www.sudoku.16mb.com/
+###Demo Link
 
+ • Checkout the Sudoku app demo in action at http://www.sudoku.16mb.com/
+ 
+###Download Instructions
+ 
+ • Click on clone or download button and download as zip. Extract the zip file and run the index.html file to play the game in action
 
 ##Project Structure
 1)  The assets folder contains two sub-folders named js and css(assets/js and assets/css). The hierarchy is explained below:
